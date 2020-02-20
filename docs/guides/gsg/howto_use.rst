@@ -927,7 +927,9 @@ You need to define namespace ``qemu`` to use tags such as
 In ``libvirt``, ``<qemu:commandline>`` tag is supported to utilize qemu specific
 features. In this example configuration of hugepage and/or network device is
 done via modifying domain XML file.
-Please see details in `Libvirt document <https://libvirt.org/drvqemu.html#qemucommand>`_ .
+Please see details in
+`libvirt document <https://libvirt.org/drvqemu.html#qemucommand>`_.
+
 
 .. code-block:: none
 
@@ -952,7 +954,8 @@ Here is an example of XML config for using with SPP.
 The following example is just excerpt from complete
 sample.
 The complete sample can be found in
-`Complete Sample <http://git.dpdk.org/apps/spp/tree/docs/samples/spp-vm1.xml>`_ .
+`spp-vm1.xml <http://git.dpdk.org/apps/spp/tree/docs/samples/spp-vm1.xml>`_.
+
 
 .. code-block:: xml
 
